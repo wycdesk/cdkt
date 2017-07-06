@@ -1,0 +1,236 @@
+/*
+ *用户权限
+ */
+h2 {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  font-size: 100%;
+}
+textarea {
+  outline: none;
+  border-radius: 2px;
+}
+label {
+  font-weight: 500;
+  color: #333;
+}
+.panel-wrap {
+  padding: 40px;
+  color: black;
+  background: #EFF4F5;
+}
+.panel-wrap h2 {
+  margin-top: 0;
+}
+.table-uil {
+  width: 100%;
+  line-height: 1;
+  margin-bottom: 20px;
+}
+.table-uil > a:hover {
+  border-color: #d7d8db;
+  color: #6FCDEA;
+}
+.table-uil .btn-group {
+  padding: 15px 10px;
+  border-bottom: 1px solid #e9eaed;
+  width: 100%;
+}
+.table-uil .btn-group:hover {
+  background-color: #F4FDFD;
+}
+.table-uil img {
+  width: 40px;
+  height: 40px;
+  padding: 1px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+}
+.table-uil .ar {
+  text-align: right;
+  width: 42%;
+  position: relative;
+  top: -52px;
+}
+.table-uil .ar a {
+  height: 26px;
+  line-height: 26px;
+  font-size: 12px;
+  padding: 0 12px;
+  border-radius: 3px;
+  border: 1px solid #e9eaed;
+  transition: all ease 0.2s;
+  background: #fff;
+  display: inline-block;
+  margin-right: 10px;
+  color: #374051;
+}
+.title-name {
+  padding: 10px 70px;
+  border-bottom: 2px solid #e9eaed;
+}
+.btn-group div {
+  padding: 15px 10px;
+  line-height: 1.5em;
+  display: inline-block;
+}
+.acatar {
+  width: 5%;
+  padding-left: 10px;
+  vertical-align: top;
+}
+/* 编辑角色 */
+.breadcrumbs {
+  font-size: 16px;
+  margin-bottom: 30px;
+  padding: 0;
+  font-weight: normal;
+}
+.breadcrumbs li {
+  display: inline-block;
+}
+.breadcrumbs li a:after {
+  content: ">";
+  margin: 0 5px;
+  color: #999;
+}
+.breadcrumbs a {
+  color: #0096c4;
+}
+.field {
+  margin-bottom: 30px;
+  max-width: 950px;
+}
+.field h4 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.field.t-col h4 {
+  width: 20%;
+  float: left;
+  line-height: 30px;
+  margin: 0;
+  padding-right: 10px;
+}
+.field.t-col .t-col-content {
+  width: 77%;
+  display: inline-block;
+}
+.field.t-col .t-col-content p {
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+.field.t-col .t-col-content .hint {
+  line-height: 1.6em;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+.field input[type=text] {
+  height: 36px;
+  width: 600px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 10px;
+  max-width: 100%;
+}
+.field textarea {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 150px;
+  width: 600px;
+  display: block;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  padding: 10px;
+}
+.field textarea + .hint {
+  margin-top: -10px !important;
+  font-size: 12px;
+  color: #999;
+  margin-bottom: 20px;
+}
+.mb20 {
+  margin-bottom: 20px;
+}
+.t-col-content input[type=text],
+.t-col-content input[type=number] {
+  height: 30px;
+  width: 400px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+.t-col-content .shuru {
+  margin: 5px -0.0625px 15px 0px;
+  height: 150px;
+  width: 713px;
+}
+.t-col-content h5 {
+  margin-bottom: 5px;
+}
+.hint {
+  line-height: 1.6em;
+  font-size: 12px;
+  color: #999;
+  clear: both;
+  margin-top: 5px;
+}
+.mb5 {
+  margin-bottom: 5px !important;
+}
+input[type=radio] {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 16px;
+  width: 16px;
+  border-radius: 100%;
+  border: 1px solid #ccd0d9;
+  display: inline-block;
+  margin-right: 3px;
+  position: relative;
+  top: 3px;
+  background: #fff;
+}
+input[type=radio]:checked {
+  border-color: #21d376 !important;
+}
+input[type=radio]:checked:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -4px;
+  margin-left: -4px;
+  height: 8px;
+  width: 8px;
+  border-radius: 100%;
+  background: #21d376;
+}
+.field-operation {
+  height: 34px;
+  float: right;
+}
+.field-operation input {
+  height: 34px;
+  line-height: 34px;
+  font-size: 14px;
+  border-radius: 3px;
+  padding: 0 12px;
+  display: inline-block;
+  background: #21d376;
+  color: #fff;
+  border-color: #21d376;
+  float: right;
+  cursor: pointer;
+}

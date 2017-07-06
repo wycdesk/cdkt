@@ -1,0 +1,287 @@
+
+body{
+	height: 100%;
+}
+input[type="button"]{
+	background:#ffffff;
+}
+div.left-content-panel-header-ylb{
+	font-size: 16px;
+}
+div.left-content-panel-header-ylb span.forClick{
+	color: red;
+	float: right;
+	margin-right:12px;
+}
+div.left-content-panel-header-ylb span.forClick a{
+	color: #005fff;
+}
+#userInformation label{
+	color:black;
+	width: 100%;
+}
+div#information input{
+	width: 76.5%;
+}
+div#left-part,div.left-content-ylb,div.left-content-panel{
+	height: 100%;
+}
+div#left-part div#information{
+	height: 100%;
+	padding-bottom:70px;
+	overflow: auto;
+}
+div#information select{
+	width: 76.5%;
+	height: 26px;
+	font-size: 16px;
+}
+hr{
+	margin-top:5px;
+	margin-bottom:10px;
+	color: #aaa4f5;
+	margin-right: 5px;
+}
+.tab-title1 li a {
+	border: 1px solid black;
+	border-bottom: 0;
+	border-radius: 5px 5px 0 0;
+}
+.tab-title1 li{
+	text-align: center;
+	width: 130px;
+}
+.tab-title1 .active a{
+	box-shadow:0 2px 3px gray inset;
+}
+div.left-content-ylb{
+	margin-top:20px;
+}
+.history-list .form-group {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-top: 5px;
+    margin-bottom: 0;
+    position: relative;
+    padding-bottom: 7px;
+    margin: 28px 0 0 0;
+}
+
+.history-list .list-bar {
+    height: 28px;
+}
+
+.history-list .list-bar div {
+    margin-right: 20px;
+    display: inline-block;
+    float: left;
+    vertical-align: top;
+}
+
+.history-list .list-bar .list-line {
+    width: 300px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 5px;
+    float: none;
+}
+
+.history-list .list-bar .neirong-list {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-left: 10px;
+}
+
+.history-list .list-bar .append {
+    float: right;
+    display: inline-block;
+}
+
+.history-list .list-bar .icon {
+    float: right;
+}
+
+
+.history-list .text-list {
+    color: #333;
+    line-height: 26px;
+    margin: 5px 0 20px 40px;
+}
+
+.new-message {
+    margin: 20px auto;
+}
+
+.new-message .chatting {
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.new-message .chatting .chakan-long {
+    position: relative;
+}
+
+.new-message .chatting .chatting-text {
+    margin-top: 30px;
+}
+
+.phone-message {
+    margin: 20px 0;
+    line-height: 30px;
+}
+
+.phone-message ul {
+    list-style: none;
+    padding: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+ul, li, a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.phone-message ul li:first-child {
+    margin-left: 0;
+}
+
+.phone-message ul li {
+    float: left;
+    display: inline-block;
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    margin-left: 5px;
+    min-width: 180px;
+}
+ul, li, a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body #right-part .right-content label {
+    color: #686F6F;
+    font-size: 14px;
+}
+
+.phone-message .audio-phone {
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.phone-message .audio-phone audio {
+    float: left;
+}
+
+ul, li, a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.textarea-list textarea {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    resize: both;
+}
+.textarea-list textarea:focus, .textarea-list textarea:hover {
+    border-color: #009688;
+}
+
+.history-list .list-bar .icon a {
+    color: #65C593;
+}
+.history-list .fa {
+    font-size: 20px;
+    color: #999;
+    margin-right: 20px;
+}
+
+.history-list .list-bar .append a {
+    padding: 5px 10px;
+    border: 1px solid #65C593;
+    border-radius: 5px;
+    color: #65C593;
+}
+
+.leftCN-comm{
+	float:left;
+	position:relative;
+	left:0px;
+	top:-7px;
+	width: 0; 
+	height: 0; 
+	border-right:30px solid #faaaaa;
+	border-top:15px solid transparent;
+	border-bottom:15px solid transparent;
+	transform:rotate(40deg);
+	z-index:9;
+}
+.leftBox-comm{
+	color:#ffffff;
+	float:left;
+	padding:0 8px 0 8px;
+	line-height:30px;
+	text-align:center;
+	position:relative;
+	left:-22px;
+	//top:-28px;
+	width:auto !important;
+	height: 30px; 
+	background:#faaaaa;
+	border-radius:10px;
+	z-index:10
+}
+.rightCN-comm{
+	float:right;
+	position:relative;
+	right:0px;
+	top:-7px;
+	width: 0; 
+	height: 0; 
+	border-right:15px solid transparent;
+	border-left:15px solid transparent;
+	border-bottom:30px solid #fffaaa;
+	transform:rotate(50deg);
+	z-index:9;
+}
+.rightBox-comm{
+	color:#000fff;
+	float:right;
+	padding:0 8px 0 8px;
+	line-height:30px;
+	text-align:center;
+	position:relative;
+	right:-22px;
+	//top:-28px;
+	width:auto !important;
+	height: 30px; 
+	background:#fffaaa;
+	border-radius:10px;
+	z-index:10;
+}
+
+.fa-im {
+    background: url(../images/fa-im.svg) no-repeat center center;
+    width: 24px;
+    height: 24px;
+}
+
+form#userInformation label > span{
+	height : 22px;
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="sso"/>
+	<classpathentry kind="src" path="department"/>
+	<classpathentry kind="src" path="template"/>
+	<classpathentry kind="src" path="redis"/>
+	<classpathentry kind="src" path="isoApi"/>
+	<classpathentry kind="src" path="androidApi"/>
+	<classpathentry kind="src" path="resource"/>
+	<classpathentry kind="src" path="search"/>
+	<classpathentry kind="src" path="communicate"/>
+	<classpathentry kind="src" path="api"/>
+	<classpathentry kind="src" path="privilege"/>
+	<classpathentry kind="src" path="systemSetting"/>
+	<classpathentry kind="src" path="log"/>
+	<classpathentry kind="src" path="workorderApi"/>
+	<classpathentry kind="src" path="group"/>
+	<classpathentry kind="src" path="help"/>
+	<classpathentry kind="src" path="report"/>
+	<classpathentry kind="src" path="user"/>
+	<classpathentry kind="src" path="field"/>
+	<classpathentry kind="src" path="cri"/>
+	<classpathentry kind="src" path="common"/>
+	<classpathentry kind="src" path="ent"/>
+	<classpathentry kind="src" path="register"/>
+	<classpathentry kind="src" path="attachments"/>
+	<classpathentry kind="src" path="knowledge"/>
+	<classpathentry kind="src" path="ccodApi"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/tomcat"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
+</classpath>

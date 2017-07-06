@@ -1,0 +1,294 @@
+body #left-part {
+  width: 15%;
+  background: #fff;
+}
+body #left-part .left-content {
+  padding: 0 0 60px 0;
+}
+body #right-part {
+  width: 85%;
+  left: 15%;
+}
+body #right-part .right-content {
+  padding: 15px 200px 0 0;
+}
+body #right-part .right-content label {
+  color: #686F6F;
+  font-size: 14px;
+}
+body #right-new {
+  background: #fff;
+  width: 200px;
+  border-right: 1px solid #e2eaec;
+  position: fixed;
+  z-index: 4;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body #right-new .right-content {
+  height: 100%;
+  overflow: auto;
+  padding: 0 0 60px 0;
+}
+body #right-new .right-content .right-content-panel-header {
+  font-size: 14px;
+  color: #333;
+  font-weight: bolder;
+  padding: 15px 0 5px 0;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  border-bottom: 1px solid #e2eaec;
+}
+body #right-new .right-content .right-part-list {
+  list-style: none;
+  padding: 0;
+}
+body #right-new .right-content .right-part-list li {
+  position: relative;
+}
+body #right-new .right-content .right-part-list li a {
+  color: #374051;
+  display: block;
+  height: 35px;
+  line-height: 35px;
+  padding-left: 17px;
+  padding-right: 10px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+}
+body #right-new .right-content .right-part-list li a.red {
+  color: #ff595f;
+}
+.user-else {
+  display: inline-block;
+  padding: 15px 20px;
+}
+.user-else input {
+  font-size: 18px;
+  padding: 0 5px;
+  max-width: 200px;
+  border-color: transparent;
+  background: transparent;
+}
+.user-else input[type=checkbox] {
+  padding: 0;
+  border: 1px solid #d4d4d4;
+}
+.user-else label {
+  color: #686F6F;
+  font-size: 14px;
+}
+.user-else .div-user-right {
+  width: 49%;
+  display: inline-block;
+  position: relative;
+  margin: 3px 0;
+}
+.user-else .div-user-right .hint {
+  font-size: 20px;
+  padding: 5px;
+  display: inline-block;
+}
+.user-else .div-user-right .hint a {
+  color: #65C593;
+}
+.user-else .div-user-right .hint a:hover {
+  color: #009688;
+}
+.user-else .div-user-right select {
+  border: transparent;
+  background: transparent;
+}
+.user-else .div-user-right .min-div {
+  display: inline-block;
+  position: relative;
+}
+.user-else .information {
+  width: 100%;
+}
+.user-else .information input {
+  max-width: 410px;
+  width: 410px;
+}
+.link-nodus .user-title {
+  width: 15%;
+  font-size: 18px;
+  font-weight: 600;
+  padding-right: 20px;
+  display: inline-block;
+}
+.link-nodus .input-in {
+  display: inline-block;
+  width: 90%;
+  margin: 10px 5%;
+}
+.link-nodus .input-in textarea {
+  width: 100%;
+  max-width: 100%;
+  min-height: 80px;
+  height: 120px;
+  padding: 15px;
+  border-color: #ddd;
+  border-radius: 5px;
+}
+.link-nodus .buttom-list {
+  text-align: right;
+  position: relative;
+}
+.link-history .user-title {
+  width: 15%;
+  height: 100%;
+  font-size: 18px;
+  font-weight: 600;
+  padding-right: 20px;
+  display: inline-block;
+}
+.link-history .history-list {
+  width: 94%;
+  margin-top: 30px;
+  margin-left: 3%;
+  display: inline-block;
+}
+.link-history .history-list .form-group {
+  margin-bottom: 20px;
+}
+.link-history .history-list .fa {
+  font-size: 20px;
+  color: #999;
+  margin-right: 20px;
+}
+.link-history .history-list .list-bar {
+  height: 28px;
+}
+.link-history .history-list .list-bar div {
+  margin-right: 20px;
+  display: inline-block;
+  float: left;
+  vertical-align: top;
+}
+.link-history .history-list .list-bar .fa-phone {
+  font-size: 26px;
+}
+.link-history .history-list .list-bar .list-line {
+  width: 300px;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 5px;
+  float: none;
+}
+.link-history .history-list .list-bar .icon {
+  float: right;
+}
+.link-history .history-list .list-bar .icon a {
+  color: #65C593;
+}
+.link-history .history-list .list-bar .icon a:hover,
+.link-history .history-list .list-bar .icon a:focus,
+.link-history .history-list .list-bar .icon a.active {
+  color: #009688;
+}
+.link-history .history-list .list-bar .append {
+  float: right;
+  display: inline-block;
+}
+.link-history .history-list .list-bar .append a {
+  padding: 5px 10px;
+  border: 1px solid #65C593;
+  border-radius: 5px;
+  color: #65C593;
+}
+.link-history .history-list .list-bar .append a:hover {
+  border-color: #009688;
+  color: #009688;
+}
+.link-history .history-list .list-bar .neirong-list {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-left: 10px;
+}
+.link-history .history-list .text-list {
+  color: #333;
+  line-height: 26px;
+  margin: 5px 0 20px 40px;
+}
+.textarea-list textarea {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  resize: both;
+  transition: all ease 0.4s;
+}
+.textarea-list textarea:focus,
+.textarea-list textarea:hover {
+  border-color: #009688;
+  box-shadow: 0 0 3px rgba(33, 211, 118, 0.35);
+}
+.fa-im {
+  background: url(../images/fa-im.svg) no-repeat center center;
+  width: 24px;
+  height: 24px;
+}
+.new-message {
+  margin: 20px auto;
+}
+.new-message .chatting {
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+.new-message .chatting .chakan-long {
+  position: relative;
+}
+.new-message .chatting .chakan-long a {
+  position: absolute;
+  right: -5px;
+  top: -5px;
+  color: #bbb;
+}
+.new-message .chatting .chatting-text {
+  margin-top: 30px;
+}
+.phone-message {
+  margin: 20px 0;
+  line-height: 30px;
+}
+.phone-message ul {
+  list-style: none;
+  padding: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.phone-message ul li {
+  float: left;
+  display: inline-block;
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  margin-left: 5px;
+  min-width: 180px;
+}
+.phone-message ul li:first-child {
+  margin-left: 0;
+}
+.phone-message .audio-phone {
+  display: inline-block;
+  margin-top: 15px;
+}
+.phone-message .audio-phone audio {
+  float: left;
+}

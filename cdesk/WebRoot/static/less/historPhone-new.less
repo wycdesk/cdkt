@@ -1,0 +1,115 @@
+#left-history{
+    width:70%;
+    padding: 20px;
+    background: #fff;
+    overflow: auto;
+    height:100%;
+    .row{
+        padding: 10px 20px;
+        width:100%;
+        h4.In{
+            width:15%;
+            line-height: 30px;
+            font-size: 14px;
+            float:left;
+            margin: 0;
+            padding-right: 10px;
+            label{
+                color: #777;
+                font-weight: 600;
+            }
+        }
+        .right-In{
+            width: 80%;
+            float:left;
+            input[type=text]{
+                height: 30px;
+            }
+            input[type=text],textarea{
+                min-width: 400px;
+                box-sizing: border-box;
+                padding: 0 10px;
+                outline: none;
+                background: #fff;
+                border: 1px solid #d5d6d9;
+                border-radius: 2px;
+                transition: all ease 0.4s;
+                &:hover{
+                    border-color: #c1c2c5;
+                }
+                &:focus{
+                    border-color: #21d376;
+                    box-shadow: 0 0 3px rgba(33,211,118,0.35);
+                }
+            }
+            textarea{
+                min-height:100px;
+            }
+            select{
+                border-color: #d5d6d9;
+                border-radius: 2px;
+                height:30px;
+                min-width:100px;
+                margin-right: 5px;
+                background:#fff;
+                &:hover{
+                    border-color: #21d376;
+                    box-shadow: 0 0 3px rgba(33,211,118,0.35);
+                }
+            }
+        }
+    }
+    .history-footer{
+        margin-top: 26px!important;
+        .btn{
+            margin-bottom: 0!important;
+        }
+    }
+}
+#right-history{
+    width:30%;
+    background:#fff;
+    border-left: 1px solid #e2eaec;
+    position: fixed;
+    z-index: 4;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    .history-header{
+        width:100%;
+        position: fixed;
+        z-index: 12;
+        height: 55px;
+        line-height: 55px;
+        border-bottom: 1px solid #e2eaec;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        background: #fff;
+        .sidebar {
+            padding: 0 20px;
+            font-size: 16px;
+        }
+    }
+    .right-content{
+        padding:65px 20px 0;
+        height:100%;
+        overflow: auto;
+        .history-list{
+            margin-bottom: 40px;
+            list-style: none;
+            padding:0;
+            font-size: 16px;
+            label{
+                color:#777;
+                padding-right: 20px;
+            }
+        }
+        li{
+            line-height: 35px;
+        }
+    }
+}

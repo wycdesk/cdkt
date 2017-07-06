@@ -1,0 +1,182 @@
+header {
+  font-size: 16px;
+  padding-left: 20px;
+}
+header .btn {
+  font-size: 12px;
+  margin-right: 10px;
+}
+.part-header {
+  position: fixed;
+  top: 0;
+  z-index: 98;
+  height: 55px;
+  line-height: 55px;
+  border-bottom: 1px solid #e2eaec;
+  width: 100%;
+  background: #fff;
+}
+body > .panel-title {
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+}
+#left-part {
+  width: 300px;
+  background: #fff;
+  border-right: 1px solid #e2eaec;
+  position: fixed;
+  z-index: 4;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+#left-part .part-header {
+  width: 299px;
+}
+#left-part .left-content {
+  height: 100%;
+  overflow: auto;
+  padding: 60px 0;
+}
+#left-part .left-content .left-content-panel .left-content-panel-header {
+  font-size: 14px;
+  color: #333;
+  font-weight: bolder;
+  padding: 15px 0 5px 0;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  border-bottom: 1px solid #e2eaec;
+}
+#left-part .left-content .left-content-panel .left-content-panel-header a {
+  margin-right: 5px;
+  font-size: 12px;
+  font-weight: 400;
+  float: right;
+}
+#left-part .left-content .left-content-panel .left-content-panel-header:after {
+  content: "";
+  clear: both;
+}
+#left-part .left-content .left-content-panel .timeline {
+  margin-left: 20px;
+}
+#left-part .left-content .left-content-panel .timeline .row {
+  margin: 0;
+}
+#right-part {
+  position: fixed;
+  left: 300px;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+#right-part .right-content {
+  overflow: auto;
+  height: 100%;
+}
+#right-part .right-content .right-content-panel {
+  width: 100%;
+}
+#right-part .table-content .grid {
+  padding: 15px 15px 25px 15px;
+  margin-bottom: 50px;
+  background: #fff;
+  border-radius: 3px;
+}
+#right-part .table-content .grid table td {
+  color: #374051;
+}
+#right-part .table-content .grid table thead tr {
+  height: 45px;
+}
+#right-part .table-content .grid table thead tr th {
+  font-weight: normal;
+}
+#right-part .table-content .grid table tbody tr {
+  height: 45px;
+}
+#right-part .table-content .grid table tbody tr:nth-child(even) {
+  background: #F5F5F5;
+}
+#right-part .table-content .grid table tbody tr:hover {
+  background: #f9fff9;
+}
+#right-part #pagination {
+  position: relative;
+  height: 30px;
+}
+#right-part #pagination .pagination {
+  position: absolute;
+  margin-top: 15px;
+  right: 5px;
+}
+#right-part #toolbar {
+  background: #fff;
+  font-size: 14px;
+  box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.15);
+  padding: 0 15px;
+  position: fixed;
+  bottom: -70px;
+  left: 300px;
+  right: 0;
+  height: 60px;
+  z-index: 20000;
+  border-top: 1px solid #f2f2f2;
+  text-align: right;
+  -webkit-transition: all ease 0.4s;
+  -moz-transition: all ease 0.4s;
+  -o-transition: all ease 0.4s;
+  transition: all ease 0.4s;
+}
+#right-part #toolbar.show {
+  bottom: 0;
+}
+#right-part #toolbar .left-btn {
+  position: absolute;
+  left: 5px;
+}
+.left-part-list {
+  list-style: none;
+  padding: 0;
+}
+.left-part-list li {
+  position: relative;
+}
+.left-part-list li a {
+  color: #374051;
+  display: block;
+  height: 35px;
+  line-height: 35px;
+  border-left: 3px solid #fff;
+  padding-left: 17px;
+  padding-right: 45px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+}
+.left-part-list li a .num {
+  position: absolute;
+  right: 8px;
+  top: 10px;
+  min-width: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 3px 7px;
+  line-height: 1;
+  border-radius: 10px;
+  color: #fff;
+  text-align: center;
+  background-color: #ced6d8;
+}
+.left-part-list li a:hover {
+  background: #F9FFF9;
+}
+.left-part-list li.active a {
+  border-left-color: #21d376;
+  background: #eff4f5;
+}
+.left-part-list li.active a .num {
+  background: #ff595f;
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="ems">
+        <wb-resource deploy-path="/" source-path="/WebRoot"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/sso"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/resource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/search"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/communicate"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/api"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/privilege"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/systemSetting"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/log"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/workorderApi"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/group"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/help"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/report"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/user"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/field"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/cri"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/common"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/ent"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/register"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/attachments"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/knowledge"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/ccodApi"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/androidApi"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/isoApi"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/redis"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/template"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/department"/>
+
+
+        <property name="context-root" value="ems"/>
+        <property name="java-output-path" value="/ems/build/classes"/>
+    </wb-module>
+</project-modules>

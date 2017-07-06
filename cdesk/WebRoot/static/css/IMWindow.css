@@ -1,0 +1,163 @@
+#im-container {
+  height: 100%;
+  background: #fff;
+}
+#IMContainer {
+  height: 100%;
+}
+#IMWindowContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+#IMWindowContainer .left-container,
+#IMWindowContainer .right-container {
+  position: absolute;
+  top: 0;
+  height: 100%;
+}
+#IMWindowContainer .left-container > .panel,
+#IMWindowContainer .right-container > .panel {
+  height: 100%;
+  position: relative;
+}
+#IMWindowContainer .left-container > .panel .tab-content,
+#IMWindowContainer .right-container > .panel .tab-content {
+  position: absolute;
+  top: 40px;
+  bottom: 0;
+  width: 100%;
+}
+#IMWindowContainer .left-container > .panel .tab-content .tab-panel,
+#IMWindowContainer .right-container > .panel .tab-content .tab-panel {
+  height: 100%;
+}
+#IMWindowContainer .left-container > .panel .tab-content .pagination-ul,
+#IMWindowContainer .right-container > .panel .tab-content .pagination-ul {
+  text-align: right;
+}
+#IMWindowContainer .left-container > .panel .nav li,
+#IMWindowContainer .right-container > .panel .nav li {
+  margin-bottom: 0;
+}
+#IMWindowContainer .left-container > .panel .nav li a,
+#IMWindowContainer .right-container > .panel .nav li a {
+  border-bottom: 2px solid transparent!important;
+  background: #ededed;
+  color: rgba(0, 0, 0, 0.54) !important;
+}
+#IMWindowContainer .left-container > .panel .nav li a:hover,
+#IMWindowContainer .right-container > .panel .nav li a:hover,
+#IMWindowContainer .left-container > .panel .nav li a:focus,
+#IMWindowContainer .right-container > .panel .nav li a:focus {
+  color: #262B33!important;
+  background: rgba(255, 255, 255, 0.4) !important;
+  border-bottom-color: transparent!important;
+}
+#IMWindowContainer .left-container > .panel .nav li.active a,
+#IMWindowContainer .right-container > .panel .nav li.active a {
+  background: rgba(255, 255, 255, 0.4) !important;
+  color: #262B33!important;
+  border-bottom-color: #00BCD4!important;
+}
+#IMWindowContainer #im-container {
+  position: absolute;
+  left: 15px;
+  right: 15px;
+  top: 0;
+  bottom: 0;
+}
+#IMWindowContainer .left-container {
+  left: 0;
+  padding: 0 15px;
+  width: 60%;
+}
+#IMWindowContainer .right-container {
+  right: 0;
+  width: 40%;
+}
+#IMWindowContainer .tab-content .tabel {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+#IMWindowContainer .tab-content table {
+  font-size: 16px;
+}
+#IMWindowContainer .tab-content table thead tr {
+  height: 45px;
+}
+#IMWindowContainer .tab-content table thead tr th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #ddd;
+  padding: 8px;
+}
+#IMWindowContainer .tab-content table tbody tr {
+  height: 45px;
+}
+#IMWindowContainer .tab-content table tbody tr td {
+  color: #374051;
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+}
+#IMWindowContainer .tab-content .tab-pane {
+  padding: 20px;
+}
+#IMWindowContainer .tab-content .client-order,
+#IMWindowContainer .tab-content .client-knowledge {
+  margin: 10px auto;
+}
+#IMWindowContainer .tab-content .client-order a.set-up,
+#IMWindowContainer .tab-content .client-knowledge a.set-up {
+  position: absolute;
+  right: 22px;
+  top: 28px;
+  font-size: 16px;
+  padding: 6px 15px;
+}
+#IMWindowContainer .tab-content .client-data,
+#IMWindowContainer .tab-content .client-history {
+  margin: 10px auto;
+}
+#IMWindowContainer .tab-content .client-data .form-group,
+#IMWindowContainer .tab-content .client-history .form-group {
+  margin-bottom: 20px;
+}
+#IMWindowContainer .tab-content .client-data .form-group header.client-heading,
+#IMWindowContainer .tab-content .client-history .form-group header.client-heading {
+  font-weight: 600;
+  line-height: 40px;
+  padding-top: 20px;
+}
+#IMWindowContainer .tab-content .client-data ul,
+#IMWindowContainer .tab-content .client-history ul {
+  list-style: none;
+  padding: 0;
+}
+#IMWindowContainer .tab-content .client-data ul label,
+#IMWindowContainer .tab-content .client-history ul label {
+  color: #262B33;
+  margin-right: 10px;
+}
+#IMWindowContainer .tab-content .client-data ul input,
+#IMWindowContainer .tab-content .client-history ul input {
+  font-size: 16px;
+  padding: 0 5px;
+  max-width: 300px;
+  border-color: transparent;
+  background: transparent;
+}
+#IMWindowContainer .tab-content .client-data ul span .fa-check,
+#IMWindowContainer .tab-content .client-history ul span .fa-check {
+  color: #009688;
+}
+#IMWindowContainer .tab-content .client-data ul li,
+#IMWindowContainer .tab-content .client-history ul li {
+  line-height: 32px;
+}
+#IMWindowContainer .container-fluid .panel > .nav-tabs li.active a {
+  color: inherit;
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}

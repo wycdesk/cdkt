@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webapp-configs>
+	<param name="HOST_IP" value="127.0.0.1"/>
+	<param name="HOST_PORT" value="8080"/>
+	<param name="LOGGER_NAME" value="cdesk_01"/>
+	<param name="PLATFORM_ID" value="cdesk"/>
+	<param name="INSTANCE_ID" value="01"/>
+
+	<param name="DOMAIN_NAME" value="cdesk.extocean.com"/>
+	
+	<param name="MAIL_SERVICE_ROOT" value="http://www.cdesk.extocean.com:8087/mailweb"/>
+	
+	<param name="WORKFLOW_ROOT" value="http://127.0.0.1:8090/workorder" />
+
+	<param name="CDESK_ROOT" value="http://entId.cdesk.com:8080/ems" />
+	<!-- cdesk接口签名 -->
+	<param name="ENT_WX_SKEY" value="nz8dw3t5dh" />
+	<!-- Cchat接口签名 -->
+	<param name="Cchat_SKEY" value="nz8dw3t5dh" />
+	<!-- 用户中心接口签名 -->
+	<param name="USER_CENTER_SKEY" value="uc12cqwf1156d231a" />
+	<!-- IOS接口签名 -->
+	<param name="IOS_SKEY" value="EWE256YGIIIF4D67" />
+	
+	<!--Andriod接口签名 -->
+	<param name="Andriod_SKEY" value="eww12129ads1" />
+	<!-- Cchat上下文 -->
+	<param name="Cchat_ROOT" value="http://123.56.112.31:8080/dms" />
+	<!--工单的上下文  -->
+	<param name="workPath" value="8090/workorder" />
+	
+	<!-- CCOD上下文 -->
+	<param name="CCOD_ROOT" value="http://211.103.182.54:20082/apiplus" />
+	<!-- 获取录音wsdl文件路径 -->
+	<param name="RECORD_ROOT" value="http://211.103.182.54:20080/dcmsWebservice" />
+	<!-- IM 地址 -->
+	<param name="IM_ROOT" value="http://211.103.182.54:20008/IM" />
+	<!-- WebAgent 地址 -->
+	<param name="WebAgent_ROOT" value="http://211.103.182.54:20090/WebAgent-W" />
+
+	<!-- imgURL品牌设置-上传图片的路径 -->
+	<param name="imgURL" value="upload/entId/image/" />
+	
+	<!-- userImportURL品牌设置-上传图片的路径 -->
+	<param name="userImportURL" value="upload/entId/userImport/" />
+	
+	<!-- userPhotoURL用户头像-上传图片的路径 -->
+	<param name="userPhotoURL" value="upload/entId/userPhoto/" />
+	
+	<!-- userDefaultPhoto用户头像默认图片 static/images/avater/agent.jpg-->
+	<param name="userDefaultPhoto" value="H+3.2/img/profile_small.jpg" />
+	
+	<!-- logoURL默认图片 -->
+	<param name="logoURL" value="static/images/logo.png" />
+	
+	<!-- faviconURL默认路径 -->
+	<param name="faviconURL" value="favicon.ico" />
+	<!--区分redis的标识  -->
+	<param name="redis_group_id" value="ylb_localhost" />
+</webapp-configs>

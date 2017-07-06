@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<!-- STRUTSCX LOG4J CONFIGURATION - XML style -->
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+	<!-- 控制台 -->
+	<appender name="STDOUT" class="org.apache.log4j.ConsoleAppender">
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d %-5p -  %m%n" />
+		</layout>
+	</appender>
+	
+	<appender name="SYSTEM" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="Append" value="true" />
+		<param name="File" value="D:/apache-tomcat-7.0.61/logs/system.log" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d %-5p - %m%n" />
+		</layout>
+	</appender>
+	<appender name="ERROR" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="Append" value="true" />
+		<param name="File" value="D:/apache-tomcat-7.0.61/error.log" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d %-5p - %m%n" />
+		</layout>
+	</appender>
+	<appender name="Manage" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="Append" value="true" />
+		<param name="File" value="D:/apache-tomcat-7.0.61/manage.log" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d %-5p - %m%n" />
+		</layout>
+	</appender>
+	
+	<logger name="com.channelsoft.portal.logger.system">
+		<level value="DEBUG" />
+		<appender-ref ref="SYSTEM" />
+	</logger>
+	<logger name="com.channelsoft.portal.logger.error">
+		<level value="ERROR" />
+		<appender-ref ref="ERROR" />
+	</logger>
+	<logger name="com.channelsoft.portal.logger.manage">
+		<level value="DEBUG" />
+		<appender-ref ref="Manage" />
+	</logger>
+	<logger name="com.mchange">
+		<level value="ERROR" />
+	</logger>
+	<logger name="org.springframework">
+		<level value="INFO" />
+	</logger>
+	<logger name="org.apache">
+		<level value="INFO" />
+	</logger>
+	<root>
+		<level value="INFO" />
+		<appender-ref ref="STDOUT"/>
+	</root>
+</log4j:configuration>

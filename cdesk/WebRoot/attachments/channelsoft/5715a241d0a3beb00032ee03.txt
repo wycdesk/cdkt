@@ -1,0 +1,35 @@
+use cdesk
+db.createUser( { "user" : "cdesk",
+                 "pwd": "cdesk03052016",
+                 "customData" : { employeeId: 1607 },
+                 "roles" : [ { role: "clusterAdmin", db: "admin" },
+                             { role: "readAnyDatabase", db: "admin" },
+                             "readWrite"
+                             ] },
+               { w: "majority" , wtimeout: 5000 } )
+     db.createUser({ user: "test",pwd: "test",roles: [ "readWrite", "dbAdmin" ]})        
+     db.auth({user:"test",pwd:"test",mechanism:"SCRAM-SHA-1",digestPassword:true})  
+db.createUser({user:"cdesk",pwd:"cdesk03052016", roles: [ ]})
+db.auth("cdesk","cdesk03052016")
+db.auth({ user:"cdesk", pwd:"cdesk03052016",mechanism:"SCRAM-SHA-1",digestPassword:true})
+db.dropUser("test")
+db.getUsers()
+db.createUser({user:"root",pwd:"qnsoft",roles:["readWrite"]})
+db.auth("root","qnsoft")
+验证：
+./mongo -u cdesk -p cdesk03052016 --authenticationDatabase cdesk
+
+
+db.createUser({user:"cdesk",pwd:"cdesk03052016"})
+
+
+
+
+db.createUser({user:'test',pwd:'test',roles:[{role:'readWrite',db:'cdesk'}]}) 
+db.auth('test','test');
+db.dropUser("test")
+
+
+使用下面的命令修复MongoDb：
+
+[root@master bin]# ./mongod --repair --dbpath /usr/local/mongodb3.2/data/ --repairpath /usr/local/mongodb3.2/tmp/

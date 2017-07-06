@@ -1,0 +1,232 @@
+body .part-header .dropdown {
+  display: inline-block;
+  position: absolute;
+  right: 5px;
+}
+.part-header .dropdown a {
+  border: none;
+  padding: 8px 10px;
+  font-size: 12px;
+  border-radius: 3px;
+  background: #21d376;
+  color: #fff;
+  margin-right: 30px;
+}
+.part-header .dropdown a:hover,
+.part-header .dropdown a :focus {
+  background: #21c46a;
+}
+.dropdown-menu {
+  min-width: 110px;
+}
+.right-content {
+  padding-top: 75px;
+  overflow: auto;
+  height: 100%;
+}
+.right-content .grid {
+  padding: 0;
+  margin-bottom: 50px;
+  border-radius: 3px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+.right-content .grid .body {
+  padding: 20px;
+  margin-bottom: 70px;
+  background: #fff;
+  border-radius: 3px;
+}
+.right-content .right-content-panel {
+  width: 100%;
+}
+.grid header {
+  padding: 15px 20px;
+  border-bottom: 1px solid #eff4f5;
+  background: #f9fafa;
+  border-radius: 3px 3px 0 0;
+}
+.grid header .title {
+  height: 43px;
+  line-height: 43px;
+  align-items: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+}
+header.title .drop-btn-default {
+  position: relative;
+  background: #fff;
+  outline: none;
+  display: inline-block;
+  margin: 0 10px;
+}
+header.title button {
+  color: #333;
+  height: 28px;
+  line-height: 26px;
+  background: #fff;
+  border: 1px solid #ced6d8;
+  font-size: 14px;
+  border-radius: 3px;
+  padding: 0 10px;
+  position: relative;
+}
+header.title button .caret {
+  margin-left: 10px;
+}
+header.title .search-sm {
+  display: block;
+  line-height: 1;
+  float: right;
+}
+header.title .search-sm label {
+  position: relative;
+  display: block;
+}
+header.title .search-sm i {
+  position: absolute;
+  float: left;
+  height: 30px;
+  line-height: 30px;
+  left: 10px;
+}
+header.title .search-sm input[type=search] {
+  height: 28px;
+  border-radius: 40px;
+  border: 1px solid #e2eaec;
+  padding-left: 30px;
+  font-size: 12px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  padding-right: 10px;
+}
+header.title .search-sm input[type=search]:focus {
+  border-color: #21d376;
+  -webkit-transition: all ease 0.4s;
+  -moz-transition: all ease 0.4s;
+  -o-transition: all ease 0.4s;
+  transition: all ease 0.4s;
+}
+.table .status {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  margin-top: 2px;
+}
+.table .tc {
+  text-align: center;
+}
+.table tbody .btn-sm {
+  float: right;
+  border-radius: 0;
+  border: 1px solid #ced6d8;
+  margin: 0 10px;
+  box-sizing: border-box;
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  white-space: nowrap;
+  color: #333;
+  background: #fff;
+  height: 26px;
+  line-height: 26px;
+  padding: 0 12px;
+  -webkit-transition: all ease 0.4s;
+  -moz-transition: all ease 0.4s;
+  -o-transition: all ease 0.4s;
+  transition: all ease 0.4s;
+}
+.status {
+  display: inline-block;
+  vertical-align: middle;
+  height: 20px;
+  line-height: 19px;
+  font-size: 12px;
+  color: #fff !important;
+  border-radius: 4px;
+  padding: 2px 5px;
+  white-space: nowrap;
+  margin-left: 5px;
+}
+.publish {
+  position: relative;
+  min-height: 560px;
+}
+.publish-title {
+  margin-bottom: 20px;
+}
+.publish-title label {
+  display: block;
+  margin-bottom: 5px;
+  color: #374051;
+}
+.publish-title > p {
+  position: relative;
+}
+.publish-title input[type=text] {
+  height: 34px;
+  width: 100%;
+  padding: 0 10px;
+  font-size: 14px;
+  box-sizing: border-box;
+  outline: none;
+  background: #fff;
+  border-radius: 3px;
+  border: 1px solid #ced6d8;
+  transition: all ease 0.4s;
+}
+.publish-title input[type=text]:hover {
+  border-color: #bac2c4;
+}
+.publish-content {
+  position: relative;
+  z-index: 1;
+}
+.publish-content label {
+  display: block;
+  margin-bottom: 5px;
+  color: #374051;
+}
+.uploader-box-small {
+  max-width: 800px;
+  padding-top: 10px;
+  position: relative;
+}
+.uploader-box-small .uploader-drop-btn {
+  float: left;
+  position: relative;
+  color: #0096c4;
+  line-height: 24px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.uploader-box-small .uploader-drop-btn input {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  z-index: 2;
+  cursor: pointer;
+}
+#toolbar {
+  background: #fff;
+  font-size: 14px;
+  box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.15);
+  padding: 0 15px;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  right: 0;
+  height: 60px;
+  z-index: 20000;
+  border-top: 1px solid #f2f2f2;
+  text-align: right;
+  -webkit-transition: all ease 0.4s;
+  -moz-transition: all ease 0.4s;
+  -o-transition: all ease 0.4s;
+  transition: all ease 0.4s;
+}

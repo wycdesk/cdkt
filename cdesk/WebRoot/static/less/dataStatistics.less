@@ -1,0 +1,167 @@
+body {
+    background:#E2E7E8;
+}
+.header{
+    font-size:16px;
+    padding-left:15px;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    background:#fff;
+    height:55px;
+    line-height:55px;
+    z-index:10000;
+    border-bottom:1px solid #f2f2f2;
+}
+.main{
+    margin:55px 0;
+}
+#menu.nav-tabs{
+    margin-top:15px;
+    margin-bottom:15px;
+    font-size:16px;
+    border-bottom: 2px solid #e2eaec;
+    &>li{
+        &.active{
+            background: none;
+            a{
+                color:#333;
+            }
+        }
+        &:first-child{
+            a{
+                padding-left:15px;
+                background:none;
+            }
+        }
+        &>a{
+            border-style:none;
+            font-weight:400;
+            color:#999;
+            &:hover{
+                background:none;
+                color:#333;
+            }
+        }
+    }
+}
+.search-bar{
+    background:#fff;
+    height:50px;
+    line-height: 50px;
+    margin:15px 0;
+    border-radius: 3px;
+    padding-left:10px;
+    .btn-group{
+        .btn{
+            background:#fff;
+            border: 1px solid #ced6d8;
+            &:hover {
+                border-color: #bac2c4;
+                color: #333;
+            }
+        }
+        .btn.active{
+            border: 1px solid #1aceaa;
+          background: #fff;
+            color: #1ACEAA;
+        }
+    }
+}
+.pane-body{
+    padding:0;
+}
+.panel-number-btn{
+    margin-bottom: 25px;
+    ul{
+        list-style:none;
+        padding:0;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        li:first-child {
+            margin-left: 0;
+        }
+        li{
+            float: left;
+            -webkit-box-flex: 1;
+            -moz-box-flex: 1;
+            -webkit-flex: 1;
+            -ms-flex: 1;
+            flex: 1;
+            margin-left: 15px;
+            min-width: 180px;
+            a{
+                color: #374051;
+                display: block;
+                background: #fff;
+                border-radius: 3px;
+                box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+                height: 122px;
+                width: 100%;
+                -webkit-transition: all ease 0.4s;
+                -moz-transition: all ease 0.4s;
+                -o-transition: all ease 0.4s;
+                transition: all ease 0.4s;
+                border: 1px solid #ccd0d9;
+                position: relative;
+                text-align: center;
+                span{
+                    font-size: 42px;
+                    display: block;
+                    padding-top: 20px;
+                }
+                &:hover{
+                    border-color: #21d376;
+                }
+                &:after{
+                    content: "";
+                    width: 0;
+                    height: 0;
+                    border-bottom: 12px solid #ccd0d9;
+                    border-left: 12px solid transparent;
+                    position: absolute;
+                    right: 3px;
+                    bottom: 3px;
+                    -webkit-transition: all ease 0.4s;
+                    -moz-transition: all ease 0.4s;
+                    -o-transition: all ease 0.4s;
+                    transition: all ease 0.4s;
+                }
+
+            }
+            &.active{
+                a{
+                    border-color: #21d376;
+                    &:after{
+                        border-bottom-color: #21d376;
+                    }
+                }
+            }
+        }
+    }
+}
+.panel-heading{
+    position: relative;
+    padding:20px;
+    .fr {
+        border: 1px solid #ddd;
+        border-radius: 3px;
+        display:inline-block;
+        position: absolute;
+        right:0;
+    }
+    .btn-group{
+        margin:0 32px 0 0;
+        .btn:first-child{
+            margin-left:0;
+        }
+        .btn-sm{
+          height:28px;
+          line-height: 20px;
+        }
+    }
+}

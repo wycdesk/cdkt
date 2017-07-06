@@ -1,0 +1,207 @@
+.panel-main {
+  padding: 75px 0 0 0;
+  -webkit-transition: all ease 0.4s;
+  -moz-transition: all ease 0.4s;
+  -o-transition: all ease 0.4s;
+  transition: all ease 0.4s;
+  position: relative;
+  z-index: 3;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.panel-main .row {
+  padding: 0 15px 0 0;
+  margin: 0;
+}
+.panel-main .row:last-child {
+  margin-bottom: 80px;
+}
+.col {
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  margin-left: 20px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+}
+.col .sub-switch-body {
+  margin: 0;
+}
+.col .sub-switch-body .body {
+  padding: 20px;
+}
+.search-page-title {
+  padding: 20px 20px 0;
+  background: #f9fafa;
+  position: relative;
+  border-radius: 3px 3px 0 0;
+}
+.search-page-title .top {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eff4f5;
+}
+.search-page-title .bottom {
+  padding-top: 15px;
+  border-top: 1px solid #fff;
+}
+.search-all {
+  position: relative;
+}
+.search-all input[type=search] {
+  height: 42px;
+  width: 70%;
+  font-size: 16px;
+  padding: 0 10px;
+  border-radius: 0 3px 3px 0;
+  float: left;
+  margin-right: 10px;
+  margin-left: -1px;
+  position: relative;
+}
+.search-all input[type=submit] {
+  -webkit-font-smoothing: antialiased;
+  height: 42px;
+  width: 70px;
+  border-radius: 3px;
+  background: #21d376;
+  border: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+}
+.search-all .drop-btn-default > button {
+  height: 42px;
+  line-height: 42px;
+  font-size: 16px;
+  background: #fff;
+  border: 1px solid #ced6d8;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 15px;
+  border-radius: 3px 0 0 3px;
+}
+.search-all .drop-btn-default > button i {
+  padding-right: 15px;
+  margin-left: 10px;
+  height: 41px;
+  line-height: 41px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-left: none;
+}
+.search-all .drop-btn-default > button i:hover {
+  border: none;
+}
+input[type=search] {
+  outline: none;
+  background: #fff;
+  border-radius: 3px;
+  border: 1px solid #ced6d8;
+  -webkit-transition: all ease 0.4s;
+  -moz-transition: all ease 0.4s;
+  -o-transition: all ease 0.4s;
+  transition: all ease 0.4s;
+}
+input[type=search]:focus {
+  border-color: #21d376;
+  box-shadow: 0 0 3px rgba(33, 211, 118, 0.35);
+}
+#pagination {
+  position: relative;
+  height: 30px;
+}
+#pagination .pagination {
+  position: absolute;
+  margin-top: 15px;
+  right: 5px;
+}
+.drop-btn-default {
+  position: relative;
+  background: #fff;
+  outline: none;
+}
+.drop-btn-default .drop-btn {
+  overflow: hidden;
+}
+.drop-btn-default .drop-box {
+  padding: 5px 0;
+}
+.drop-btn-default ul {
+  border-bottom: 1px solid #e2eaec;
+  -webkit-transition: all ease 0.4s;
+  -moz-transition: all ease 0.4s;
+  -o-transition: all ease 0.4s;
+  transition: all ease 0.4s;
+}
+.drop-btn-default ul:last-of-type {
+  padding: 0 5px;
+}
+.drop-btn-default li {
+  line-height: 1.5em;
+}
+.drop-btn-default li a {
+  font-size: 14px;
+  padding: 5px 10px;
+  display: block;
+  border: none;
+}
+.dropdown + .drop-box {
+  bottom: auto;
+  top: 105%;
+}
+.drop-box li > a {
+  color: #333;
+  padding: 5px 20px 5px 10px;
+  display: block;
+}
+#toolbar {
+  background: #fff;
+  font-size: 14px;
+  box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.15);
+  padding: 0 15px;
+  position: fixed;
+  bottom: -70px;
+  left: 0;
+  right: 0;
+  height: 60px;
+  width: 100%;
+  z-index: 20000;
+  border-top: 1px solid #f2f2f2;
+  text-align: right;
+  -webkit-transition: all ease 0.4s;
+  -moz-transition: all ease 0.4s;
+  -o-transition: all ease 0.4s;
+  transition: all ease 0.4s;
+}
+#toolbar.show {
+  bottom: 0;
+}
+#toolbar .left-btn {
+  position: absolute;
+  left: 20px;
+}
+.timeing {
+  display: inline-block;
+}
+.timeing input {
+  height: 26px;
+  width: 140px;
+  border-radius: 3px;
+  padding: 0 5px;
+  outline: none;
+  background: #fff;
+  border: 1px solid #ced6d8;
+  -webkit-transition: all ease 0.4s;
+  -moz-transition: all ease 0.4s;
+  -o-transition: all ease 0.4s;
+  transition: all ease 0.4s;
+}
+.timeing input:focus {
+  border-color: #21d376;
+  box-shadow: 0 0 3px rgba(33, 211, 118, 0.35);
+}

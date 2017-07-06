@@ -1,0 +1,16 @@
+.tree-grid-panel {
+  margin-top: 15px;
+}
+.grid {
+  background: #fff;
+}
+.grid td {
+  line-height: 55px;
+  border-top: none !important;
+}
+.grid td .btn {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}

@@ -1,0 +1,27 @@
+input[type=file]{
+    border: 1px solid #C8C8C8;
+    margin: 2px 0;
+    height: 26px;
+    line-height: 26px;
+    vertical-align: middle;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+}
+input[type=file]:active{
+    border:1px solid #C8C8C8;
+}
+input[type=file]+.button{
+    position:relative;
+    left:-7px;
+    -moz-border-bottom-left-radius: 0;
+    -ms-border-bottom-left-radius: 0;
+    -o-border-bottom-left-radius: 0;
+    border-bottom-left-radius: 0;
+
+    -moz-border-top-left-radius: 0;
+    -ms-border-top-left-radius: 0;
+    -o-border-top-left-radius: 0;
+    border-top-left-radius: 0;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jquery Checkbox Test</title>
+    <script type="text/javascript" src="../H+3.2/js/jquery-2.1.1.min.js"></script>
+</head>
+<body>
+<input type="checkbox" id="checkbox"/>
+<script>
+    /*
+    $("#checkbox").click(function(){
+        console.log("click");
+    });
+    $("#checkbox").change(function(){
+        console.log("change");
+    });
+    */
+    $("#checkbox").on("click",function(){
+        console.log("click");
+    }).on("change",function(){
+        console.log("change");
+    });
+</script>
+</body>
+</html>

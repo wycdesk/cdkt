@@ -1,0 +1,167 @@
+#im-container{
+    height:100%;
+    background:#fff;
+}
+#IMContainer{
+    height:100%;
+}
+#IMWindowContainer{
+    position: relative;
+    width:100%;
+    height:100%;
+    .left-container,.right-container{
+        position: absolute;
+        top:0;
+        height:100%;
+        &>.panel{
+            height:100%;
+            position:relative;
+            .tab-content{
+                position: absolute;
+                top:40px;
+                bottom:0;
+                width:100%;
+                .tab-panel{
+                    height:100%;
+                }
+                .pagination-ul{
+                    text-align:right;
+                }
+            }
+            .nav{
+                li{
+                    margin-bottom:0;
+                    a{
+                        border-bottom: 2px solid transparent!important;
+                        background:#ededed;
+                        color: rgba(0, 0, 0, 0.54)!important;
+                        &:hover,&:focus{
+                            color: #262B33!important;
+                            background: rgba(255, 255, 255, 0.4) !important;
+                            border-bottom-color: transparent!important;
+                        }
+                    }
+                }
+                li.active{
+                    a{
+                        background: rgba(255, 255, 255, 0.4) !important;
+                        color: #262B33!important;
+                        border-bottom-color: #00BCD4!important;
+                    }
+                }
+            }
+        }
+    }
+    #im-container{
+        position: absolute;
+        left:15px;
+        right:15px;
+        top:0;
+        bottom:0;
+    }
+    .left-container{
+        left:0;
+        padding:0 15px;
+        width:60%;
+    }
+    .right-container{
+        right:0;
+        width:40%;
+    }
+
+    .tab-content{
+        .tabel{
+            width: 100%;
+            max-width: 100%;
+            margin-bottom: 20px;
+        }
+        table{
+            font-size: 16px;
+            thead{
+                tr {
+                    height: 45px;
+                    th {
+                        vertical-align: bottom;
+                        border-bottom: 2px solid #ddd;
+                        padding: 8px;
+                    }
+                }
+            }
+            tbody{
+                tr{
+                    height:45px;
+                    td {
+                        color: #374051;
+                        padding: 8px;
+                        line-height: 1.42857143;
+                        vertical-align: top;
+                        border-top: 1px solid #ddd;
+                    }
+                }
+            }
+        }
+        .tab-pane{
+            padding: 20px;
+        }
+        .client-order,.client-knowledge{
+            margin: 10px auto;
+            a.set-up{
+                position: absolute;
+                right: 22px;
+                top: 28px;
+                font-size: 16px;
+                padding:6px 15px;
+            }
+        }
+        .client-data,.client-history{
+            margin: 10px auto;
+            .form-group{
+                margin-bottom: 20px;
+                header.client-heading{
+                    font-weight: 600;
+                    line-height: 40px;
+                    padding-top: 20px;
+                }
+            }
+            ul{
+                list-style: none;
+                padding: 0;
+                label{
+                    color: #262B33;
+                    margin-right: 10px;
+                }
+                input{
+                    font-size: 16px;
+                    padding: 0 5px;
+                    max-width: 300px;
+                    border-color: transparent;
+                    background: transparent;
+                }
+                span{
+                    //margin:10px;
+                    .fa-check{
+                        color: #009688;
+                    }
+                }
+                li{
+                    line-height: 32px;
+                }
+            }
+        }
+    }
+    .container-fluid{
+        .panel{
+            &>.nav-tabs{
+                li{
+                    &.active{
+                        a{
+                            color: inherit;
+                            background-color: rgba(255, 255, 255, 0.1) !important;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
