@@ -7,6 +7,7 @@ public class TestUtils {
 
 		System.out.println("test output ====");
 		System.out.println("test save ====");
+		System.out.println("test update  ====");
 	}
 
 }
