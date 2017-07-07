@@ -26,6 +26,7 @@
 	<classpathentry kind="src" path="attachments"/>
 	<classpathentry kind="src" path="knowledge"/>
 	<classpathentry kind="src" path="ccodApi"/>
+	<classpathentry kind="src" path="test"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/tomcat"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>

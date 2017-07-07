@@ -28,6 +28,7 @@
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/redis"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/template"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/department"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/test"/>
 
 
         <property name="context-root" value="ems"/>
